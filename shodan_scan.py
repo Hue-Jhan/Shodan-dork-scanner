@@ -1,7 +1,7 @@
 import shodan
 import os
 from dotenv import load_dotenv
-from censys_menu import clear_screen, print_menu, print_banner
+from menu import clear_screen, print_menu, print_banner
 
 api_key = os.getenv('shodan_key2')
 
