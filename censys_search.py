@@ -3,7 +3,7 @@ import requests
 from base64 import b64encode
 import json
 from dotenv import load_dotenv
-from censys_menu import clear_screen, print_menu, print_banner
+from menu import clear_screen, print_menu, print_banner
 
 load_dotenv()
 CENSYS_API_ID = os.getenv('CENSYS_API_ID')
