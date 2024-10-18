@@ -1,12 +1,13 @@
 import os
 from dotenv import load_dotenv
 import sys
+import shodan
 from censys_search import search_censys
 from censys_get_host_info import get_host_info
-from censys_menu import print_banner, print_menu, clear_screen
+from menu import print_banner, print_menu, clear_screen
 from shodan_scan import shodan_info
 from shodan_queries import shodan_queries
-import shodan
+
 
 load_dotenv()
 CENSYS_API_ID = os.getenv('CENSYS_API_ID')
