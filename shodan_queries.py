@@ -1,5 +1,5 @@
 import os
-from censys_menu import clear_screen, print_menu, print_banner
+from menu import clear_screen, print_menu, print_banner
 
 
 def shodan_queries():
