@@ -10,5 +10,5 @@ The code is just a multitool-styled menu with options:
 
 
 # 📋 Queries
-
+The query list is just a list of examples taken from websites and github pages. 
 
