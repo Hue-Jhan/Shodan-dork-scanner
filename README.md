@@ -18,9 +18,7 @@ The Apis are free to obtain on the specific websites, i put all of them in a .en
 <img align="right" src="media/iot2hue2.png" width="250" />
 
 **```Censys Search```**: The first scanner uses censys api as i said before, it's not as complete as the shodan one but it does its job, the api key is free to obtain on their website. Sorry if the results in the example are your apache servers XD.
-
 In order to get the api to work, during the get request i sent the credentials as b64 encoded headers and other info such as the number of results as parameters, i don't know why they have to be encoded but it works so dont complain, the requests is then shown, and every "service" of the ip is listed. The service can be an open port, a vulnerability or anything like that.
-
 Be aware that some shodan queries might not work on Censys website and some might not work used via api, dont ask me why.
 
 <img align="right" src="media/iot2hue3.png" width="250" />
