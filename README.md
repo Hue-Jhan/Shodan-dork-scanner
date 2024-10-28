@@ -24,9 +24,7 @@ Be aware that some shodan queries might not work on Censys website and some migh
 <img align="right" src="media/iot2hue3.png" width="250" />
 
 **```Censys host info```**: The second scanner is quite simple, it gives every piece of information possible on a given address using the censys api.
-
 Just like the Censys search, it gets every open port, vulnerabilty, key or anything it can find about a device and prints it as a Service, the results are sometimes formatted if the informations are too many.
-
 On the right u can see some examples of the scanners, yes i put the photos as small as possible, you can easily view them by right clicking them and opening them in a new tab. All the pictures are in the ```media``` folder.
 
 <img align="right" src="media/iot2hue4.png" width="250" />
