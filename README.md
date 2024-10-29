@@ -38,10 +38,10 @@ Anyways the scanner is more accurate than the Censys scan, it prints every servi
 
 # 📋 Queries
 
-<img align="right" src="media/iot2hue5.png" width="250" />
+<img align="right" src="media/iot2hue5.png" width="350" />
 
 The query list is just a list of examples taken from websites and github pages. Here's an overview:
-### - Network Attached Storage:
+#### - Network Attached Storage:
 
-### - Government related: 
+#### - Government related: 
 
