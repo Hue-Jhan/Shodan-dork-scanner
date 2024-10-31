@@ -42,31 +42,6 @@ Anyways the scanner is more accurate than the Censys scan, it prints every servi
 
 The query list is just a list of examples taken from websites and github pages. Here's an quick overview, note that i did not include everything here, check the code to see the complete list:
 
-<!--
-
-#### - Network Attached Storage: 
-- Ftp servers,
-- Nas drives,
-- Media servers,
-- Samba file shares
-
-#### - Government related: 
-- North korea based devices,
-- Maritime satellites
-- Submarine mission control dashboards,
-- Voting Machines,
-- Prison pay phones
-
-#### - Webcams:
-- Yawcams,
-- Webcam7/WebcamXP
-- Android IP Webcam servers,
-- Security DVRs
-
-#### - 
- -->
-
-
 #### 1. Network Attached Storage
 - Samba File Shares
   - "Authentication: disabled" port:445
@@ -77,7 +52,7 @@ The query list is just a list of examples taken from websites and github pages. 
 - Iomega / LenovoEMC NAS Drive
   - "Set-Cookie: iomega=" -\"manage/login.html\" -http.title:"Log In"
 - Logitech Media Servers
-  - "Server: Logitech Media Server" "200 OK" <img align="right" src="media/iot2hue6.png" width="350" />
+  - "Server: Logitech Media Server" "200 OK" <img align="right" src="media/iot2hue6.png" width="400" />
 #### 2. Government Related
 - Every Open Device in North Korea
   - net:175.45.176.0/22,210.52.109.0/24,77.94.35.0/24
