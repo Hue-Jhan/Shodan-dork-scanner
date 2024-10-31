@@ -40,10 +40,102 @@ Anyways the scanner is more accurate than the Censys scan, it prints every servi
 
 <img align="right" src="media/iot2hue5.png" width="350" />
 
-The query list is just a list of examples taken from websites and github pages. Here's an overview:
+The query list is just a list of examples taken from websites and github pages. Here's an quick overview, note that i did not include everything here, check the code to see the complete list:
+
+<!--
 
 #### - Network Attached Storage: 
-Ftp servers, Nas drives, media servers, samba file shares.
+- Ftp servers,
+- Nas drives,
+- Media servers,
+- Samba file shares
 
 #### - Government related: 
+- North korea based devices,
+- Maritime satellites
+- Submarine mission control dashboards,
+- Voting Machines,
+- Prison pay phones
+
+#### - Webcams:
+- Yawcams,
+- Webcam7/WebcamXP
+- Android IP Webcam servers,
+- Security DVRs
+
+#### - 
+ -->
+
+
+#### 1. Network Attached Storage
+- Samba File Shares
+  - "Authentication: disabled" port:445
+  - "Authentication: disabled" NETLOGON SYSVOL -unix port:445
+  - "Authentication: disabled" "Shared this folder to access QuickBooks files OverNetwork" -unix port:445
+- FTP Servers (Anonymous Login)
+  - "220" "230 Login successful." port:21
+- Iomega / LenovoEMC NAS Drive
+  - "Set-Cookie: iomega=" -\"manage/login.html\" -http.title:"Log In"
+- Logitech Media Servers
+  - "Server: Logitech Media Server" "200 OK"
+#### 2. Government Related
+- Every Open Device in North Korea
+  - net:175.45.176.0/22,210.52.109.0/24,77.94.35.0/24
+- Maritime Satellites
+  - "Cobham SATCOM" OR ("Sailor" "VSAT")
+- Submarine Mission Control Dashboards
+  - title:"Slocum Fleet Mission Control"
+- Voting Machines (US)
+  - "voter system serial" country:US
+- Prison Pay Phones
+  - "Encartele Confidential"
+#### 3. Webcams
+- Yawcams
+  - "Server: yawcam" "Mime-Type: text/html"
+- WebcamXP/Webcam7
+  - ("webcam 7" OR "webcamXP") http.component:"mootools" -401
+- Android IP Webcam Servers
+  - "Server: IP Webcam Server" "200 OK"
+- Security DVRs
+  - html:"DVR_H264 ActiveX"
+#### 4. Printers and Copiers
+- HP Printers
+  - "Serial Number:" "Built:" "Server: HP HTTP"
+- Xerox Copiers/Printers
+  - ssl:"Xerox Generic Root"
+- Epson Printers
+  - "SERVER: EPSON_Linux UPnP" "200 OK"
+  - "Server: EPSON-HTTP" "200 OK"
+- Canon Printers
+  - "Server: KS_HTTP" "200 OK"
+  - "Server: CANON HTTP Server"
+#### 5. Home Devices
+- Apple Airplay Receivers
+  - "\\x08_airplay" port:5353
+- Smart TVs or Chromecasts
+  - "Chromecast:" port:8008
+- Crestron Smart Home Controllers
+  - "Model: PYNG-HUB"
+- Octoprint 3D Printers
+  - title:"OctoPrint" -title:"Login" http.favicon.hash:1307375944
+#### 6. Industrial Control Systems, RDP & Network Infrastructure
+Samsung Electronic Billboards
+"Server: Prismview Player"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
