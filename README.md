@@ -77,7 +77,7 @@ The query list is just a list of examples taken from websites and github pages. 
 - Iomega / LenovoEMC NAS Drive
   - "Set-Cookie: iomega=" -\"manage/login.html\" -http.title:"Log In"
 - Logitech Media Servers
-  - "Server: Logitech Media Server" "200 OK"
+  - "Server: Logitech Media Server" "200 OK" <img align="right" src="media/iot2hue6.png" width="350" />
 #### 2. Government Related
 - Every Open Device in North Korea
   - net:175.45.176.0/22,210.52.109.0/24,77.94.35.0/24
@@ -118,7 +118,7 @@ The query list is just a list of examples taken from websites and github pages. 
   - "Model: PYNG-HUB"
 - Octoprint 3D Printers
   - title:"OctoPrint" -title:"Login" http.favicon.hash:1307375944
-#### 6. Industrial Control Systems, RDP & Network Infrastructure <img align="right" src="media/iot2hue6.png" width="350" />
+#### 6. Industrial Control Systems, RDP & Network Infrastructure
 - Samsung Electronic Billboards
   - "Server: Prismview Player"
 - Gas Station Pump Controllers
