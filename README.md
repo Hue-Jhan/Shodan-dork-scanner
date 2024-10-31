@@ -119,8 +119,58 @@ The query list is just a list of examples taken from websites and github pages. 
 - Octoprint 3D Printers
   - title:"OctoPrint" -title:"Login" http.favicon.hash:1307375944
 #### 6. Industrial Control Systems, RDP & Network Infrastructure
-Samsung Electronic Billboards
-"Server: Prismview Player"
+- Samsung Electronic Billboards
+  - "Server: Prismview Player"
+- Gas Station Pump Controllers
+  - "in-tank inventory" port:10001
+- Automatic License Plate Readers
+  - P372 "ANPR enabled"
+- Tesla Powerpack Charging Stations & General Electric Vehicles Chargers
+  - http.title:"Tesla PowerPack System" http.component:"d3" -ga3ca4f2
+  - "Server: gSOAP/2.8" "Content-Length: 583"
+- Street & Railroad Management
+  - "log off" "select the appropriate"
+  - mikrotik streetlight
+- CAREL PlantVisor Refrigeration Units
+  - "Server: CarelDataServer" "200 Document follows"
+- Nordex Wind Turbine Farms
+  - http.title:"Nordex Control" "Windows 2000 5.0 x86" "Jetty/3.1 (JSP 1.1; Servlet 2.2; java 1.6.0_14)"
+- DICOM Medical X-ray Machines
+  - "DICOM Server Response" port:104
+- Siemens Industrial Automation & HVAC Controllers
+  - "Siemens, SIMATIC" port:161
+  - "Server: Microsoft-WinCE" "Content-Length: 12581"
+- Door Lock Access Controllers
+  - "HID VertX" port:4070
+#### (7) Other & Random Stuff
+- PBX IP Phone Gateways
+  - PBX "gateway console" -password port:23
+- Ethereum Miners
+  - "ETH - Total speed"
+- Polycom Video Conferencing
+  - http.title:"- Polycom" "Server: lighttpd"
+  - "Polycom Command Shell" -failed port:23
+- Apache Directory Listings
+  - http.title:"Index of /" http.html:".pem"
+- Minecraft Servers
+  - "Minecraft Server" "protocol 340" port:25565
+#### (8) Industrial Network Infrastructure
+- Unprotected VNC
+  - "authentication disabled" "RFB 003.008"
+- Docker APIs
+  - "Docker Containers:" port:2375
+- Windows Remote Desktop Control
+  - "\x03\x00\x00\x0b\x06\xd0\x00\x00\x124\x00"
+- Docker Private Registries
+  - "Docker-Distribution-Api-Version: registry" "200 OK" -gitlab
+- Already Logged-In as Root via Telnet
+  - "root@" port:23 -login -password -name -Session
+- Android Root Bridges
+  - "Android Debug Bridge" "Device" port:5555
+- Lantronix Serial-to-Ethernet Adapter Leaking Telnet Passwords
+  - Lantronix password port:30718 -secured
+- Pi-hole Open DNS Servers
+  - "dnsmasq-pi-hole" "Recursion: enabled"
 
 
 
