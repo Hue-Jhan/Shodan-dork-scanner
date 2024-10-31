@@ -118,7 +118,7 @@ The query list is just a list of examples taken from websites and github pages. 
   - "Model: PYNG-HUB"
 - Octoprint 3D Printers
   - title:"OctoPrint" -title:"Login" http.favicon.hash:1307375944
-#### 6. Industrial Control Systems, RDP & Network Infrastructure
+#### 6. Industrial Control Systems, RDP & Network Infrastructure <img align="right" src="media/iot2hue6.png" width="350" />
 - Samsung Electronic Billboards
   - "Server: Prismview Player"
 - Gas Station Pump Controllers
