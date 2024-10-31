@@ -52,7 +52,7 @@ The query list is just a list of examples taken from websites and github pages. 
 - Iomega / LenovoEMC NAS Drive
   - "Set-Cookie: iomega=" -\"manage/login.html\" -http.title:"Log In"
 - Logitech Media Servers
-  - "Server: Logitech Media Server" "200 OK" <img align="right" src="media/iot2hue6.png" width="400" />
+  - "Server: Logitech Media Server" "200 OK" <img align="right" src="media/iot2hue6.png" width="380" />
 #### 2. Government Related
 - Every Open Device in North Korea
   - net:175.45.176.0/22,210.52.109.0/24,77.94.35.0/24
